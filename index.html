@@ -10,76 +10,93 @@
     ></script>
     <title>My Portfolio</title>
   </head>
-  <body class=" bg-gray-900 text-white" >
+  <body class=" bg-gradient-to-r from-gray-500 via-red-100 to-gray-900 text-white" >
     <!-- Nav section -->
-    <section class=" bg-gray-900 text-white text-[20px]">
+    <section class=" bg-gradient-to-r from-gray-500 via-red-100 to-gray-900  text-white text-[20px] text ">
       <nav class="lg:flex justify-between items-center px-[50px] py-[30px] lg:px-[150px] lg:flex-row">
-        <p class="flex text-[25px] lg:hidden"><i class="fa-solid fa-bars"></i>
+        <p class="flex text-[25px] text-stone-50 lg:hidden"><i class="fa-solid fa-bars"></i>
         </p>
-        <h1 class="hidden text-[25px] font-bold lg:flex">Xeenode</h1>
+        <h1 class="hidden text-[25px] font-bold lg:flex hover:text-blue-400">Xeenode</h1>
         <ul class="hidden lg:flex gap-6">
           <a class="hover:text-blue-400" href="#Home"><li>Home</li></a>
           <a class="hover:text-blue-400" href="#About"><li>About</li></a>
           <a class="hover:text-blue-400" href="#Projects"><li>Projects</li></a>
           <a class="hover:text-blue-400" href="#Skills"><li>Skills</li></a>
+          <a class="hover:text-blue-400" href="#Testimonials"><li>Testimonials</li></a>
           <a class="hover:text-blue-400" href="#Contact"><li>Contact</li></a>
+
         </ul>
       </nav>
     </section>
 
     <!-- HERO SECTION -->
     <section
-      class=" px-[50px] lg:mb-[200px] mt-[80px] lg:px-[200px] lg:mt-[150px] flex flex-col-reverse lg:flex-row justify-center items-center gap-[20px] lg:gap-[120px]"
+      class=" px-[50px] lg:mb-[200px] mt-[80px] lg:px-[200px] lg:mt-[150px]  "
     >
-      <div class=" flex flex-col gap-6 items-start">
-        <h1 class="text-[20px] font-bold">Hey there👋, My name is Zainab, </h1>
-        <p class="text-[20px] text-justify"> I'm a frontend developer, <br>    
-         I enjoy building user-friendly interfaces,<br> 
-         I adore tidy codes, solving challenges effectively.
+      <div class=" flex flex-col gap-4 justify-center items-center text-center">
+        <h1 class="text-[30px] font-bold">Hey there👋, My name is <span class="text-[#709872] hover:text-green-200"> Zainab </span>, </h1>
+         <h2 class="text-[28px] font-semibold"> I'm a frontend developer,</h2>    
+         <p class="text-[25px]">
+          I enjoy building user-friendly interfaces, I adore tidy codes, solving challenges effectively.
         </p>
-        <a href="https://app.enhancv.com/resume/64a55836e758640050535c82" class="inline-block bg-[#709872] hover:bg-black hover:text-white hover:duration-700 hover:ease-in-out font-bold py-2 px-4 rounded w-[120px] ">
+        <button class="bg-[#709872] text-white text-[24px] font-bold p-3 w-[150px] h-[60px] hover:bg-slate-700 ">
+        <a href="https://app.enhancv.com/resume/64a55836e758640050535c82" >
                 Resume
-              </a>
-              <a href="https://twitter.com/Zaynab1Audu?t=LsrxGz_SLmmHtA6MFmij6g&s=08" class="text-gray-100 hover:text-white">
+              </a> 
+        </button>
+        <p>
+              <a href="https://twitter.com/Zaynab1Audu?t=LsrxGz_SLmmHtA6MFmij6g&s=08" class="text-gray-100 text-[50px] hover:bg-slate-700 hover:text-white">
               <i class="fab fa-twitter"></i>
             </a>
-            <a href="https://www.linkedin.com/in/zainab-audu-3a40a826b" class="text-gray-100 hover:text-white">
+            <a href="https://www.linkedin.com/in/zainab-audu-3a40a826b" class="text-gray-100 text-[50px] hover:bg-slate-700 hover:text-white">
                <i class="fab fa-linkedin"></i>
             </a>
+            <a href="https://github.com/Zainab-Audu" class="text-gray-100 text-[50px] hover:bg-slate-700 hover:text-white">
+             <i class="fab fa-github"></i> 
+             </a>
         </p>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-         <img
-        class="w-[400px] h-[400px] rounded-full lg:w-[200px] lg:h-[200px] lg:rounded-lg"
-        src="./img/Head Shot Screenshot.jpg"
-        alt="image"
-      />
+      
+         
       </div>
     </section>
 
     <!-- About Section -->
     
-      <section class=" bg-gray-900 py-8" id="About">
+      <section class=" bg-gradient-to-r from-gray-500 via-red-100 to-gray-900" id="About">
   <div class="container mx-auto px-4 lg:px-[150px] mt-6 lg:mt-[120px] flex-auto">
-    <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
+    <h2 class="text-3xl font-bold mb-4 text-center hover:bg-slate-700">About Me</h2>
+    <div class="flex flex-col lg:flex-row-reverse gap-4 items-center">
     <p class="text-[20px] text-justify">
-          My name is Zainab Audu, a graduate of Quantity Surveying from the University of Ilorin. I am a budding Frontend Developer skilled in HTML, Tailwind CSS, JavaScript, Git and GitHub. <br> I enjoy building user-friendly interfaces, neat and workable codes and solving challenges, with a keen interest in how tech innovations, softwares and products impact our daily lives positively. <br>
-           I enjoy collaborative ventures, working with different people but towards one purpose. Currently, I practice as an intern with TIIDELab, where I engage with different people on different projects. My interests include meeting people, continuous self development, and outdoor fun activities.
-        </p>
+               I am Zainab Audu, a graduate in Quantity Surveying from the University of Ilorin. My path, however, has led me to embrace the world of Frontend Development. Proficient in HTML, Tailwind CSS, JavaScript, Git, and GitHub, I derive great satisfaction from crafting user-friendly interfaces and well-structured code.
+
+What captivates me about technology is its power to bring positive changes to our lives. I am intrigued by how innovations, software, and products can reshape our daily experiences.
+
+Collaboration is integral to my approach. As an intern at TIIDELab, I engage with diverse projects and individuals, valuing both the uniqueness each person offers and the unified goals we strive for.
+
+I thrive on meaningful interactions, believing that meeting new people enriches my perspective. Continual self-improvement is my mantra, driving me to refine my skills. Beyond work, I seek solace in outdoor activities, which provide a counterbalance to my tech-oriented pursuits.
+
+In essence, I am Zainab Audu—a graduate, a tech enthusiast, and a seeker of diverse experiences. My journey encapsulates learning, innovation, and a zest for life beyond the screen. 
+    </p>
+        <img
+        class="w-[400px] h-[400px] rounded-full lg:w-[400px] lg:h-[400px] lg:rounded-lg"
+        src="./img/Head Shot Screenshot.jpg"
+        alt="image"
+      />
+      </div>
     
         </section>
 
         <!-- project Section -->
 
-        <section class=" bg-gray-900 py-8" id="Projects">
+        <section class="bg-gradient-to-r from-gray-500 via-red-100 to-gray-900  py-8" id="Projects">
     <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold mb-4 text-center">Projects</h2>
+    <h2 class="text-3xl font-bold mb-4 text-center hover:bg-slate-700">Projects</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <!-- Project Card 1 -->
       <div class="bg-white shadow-md rounded-lg overflow-hidden">
         <img src="./img/mobile (6).png" alt="Project 1" class="w-full h-48 object-cover">
         <div class="p-4">
-          <h3 class="text-xl font-semibold mb-2">Erufit Tracker</h3>
+          <h3 class="text-xl font-semibold mb-2 hover:bg-slate-700">Erufit Tracker</h3>
           <p class="text-gray-700">
             Welcome to our fitness website. Energize the design with dynamic visuals and user-centric experiences.
           </p>
@@ -93,7 +110,7 @@
       <div class="bg-white shadow-md rounded-lg overflow-hidden">
         <img src="./img/mobile (4).png" alt="Edge Ledger" class="w-full h-48 object-cover">
         <div class="p-4">
-          <h3 class="text-xl font-semibold mb-2">Edge Ledger</h3>
+          <h3 class="text-xl font-semibold mb-2 ">Edge Ledger</h3>
           <p class="text-gray-700">
             Discover our cutting-edge design: experience seamless UX, captivating visuals, and inspiring user journeys ahead.
           </p>
@@ -123,13 +140,13 @@
 
 
      <!-- Skills Section -->
-      <section class=" bg-gray-900 py-8" id="Skills">
+      <section class=" bg-gradient-to-r from-gray-500 via-red-100 to-gray-900 text-black"  id="Skills">
   <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold mb-4 text-center">Skills</h2>
+    <h2 class="text-3xl font-bold mb-4 text-center text-white hover:bg-slate-700" >Skills</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
       <!-- Skill Card 1 -->
-      <div class="bg-white shadow-md rounded-lg p-6">
+      <div class="bg-white shadow-md rounded-lg p-6 text-black">
         <h3 class="text-xl font-semibold mb-2">HTML 5</h3>
         <p class="text-gray-700">
           Solid understanding of HTML fundamentals, including tags, elements, and structure
@@ -137,7 +154,7 @@
       </div>
 
       <!-- Skill Card 2 -->
-      <div class="bg-white shadow-md rounded-lg p-6">
+      <div class="bg-white shadow-md rounded-lg p-6 text-black">
         <h3 class="text-xl font-semibold mb-2">Tailwindcss</h3>
         <p class="text-gray-700">
           Familiar with Tailwind CSS basics for web styling efficiency.
@@ -146,7 +163,7 @@
 
       <!-- Skill Card 3 -->
       <div class="bg-white shadow-md rounded-lg p-6">
-        <h3 class="text-xl font-semibold mb-2">Git and GitHub</h3>
+        <h3 class="text-xl font-semibold mb-2 text-black">Git and GitHub</h3>
         <p class="text-gray-700">
         Knowledge of version control, repositories, commits, and collaboration in software development..
         </p>
@@ -173,25 +190,41 @@
   </div>
 </section>
 
-
-      <!-- Contact Section -->
-<section class=" bg-gray-900 py-8" id="Contact">
-  <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold mb-4 text-center">Contact Me</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <!-- Contact Information -->
+<!-- Testimonials section -->
+      <section class=" bg-gradient-to-r from-gray-500 via-red-100 to-gray-900 text-black" id="Testimonials">
+        <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-4 text-center text-white hover:bg-slate-700">Testimonials</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div class="bg-white shadow-md rounded-lg p-6">
-        <h3 class="text-xl font-semibold mb-2">Contact Information</h3>
+        <h3 class="text-xl font-semibold mb-2 text-black">Tijjani Abdulsalam</h3>
         <p class="text-gray-700">
-          
-        </p>
-        <p class="text-gray-700">
-          Phone: +1 123-456-7890
+        Over the years, my relationship with Zainab has grown solid, leading me to hold steadfast conviction in her unswerving commitment to ceaseless advancement. Throughout this extensive period, I have observed her unwavering dedication to personal and professional development. Her consistent pursuit of improvement, both in terms of skills and character, has left an indelible impression. Zainab's resilience and unwavering determination to evolve not only underline her commendable work ethic but also inspire those around her. With each passing year, her relentless dedication becomes more evident, reinforcing the certainty that she is destined for remarkable growth.
         </p>
       </div>
 
-       <!-- Contact Form -->
+      <!--  Testimonial Card 2 -->
+      <div class="bg-white shadow-md rounded-lg p-10">
+        <h3 class="text-xl font-semibold mb-2">Azeez Fadlullah</h3>
+        <p>Zainab exemplifies unwavering commitment to her life's pursuit. With relentless determination, she immerses herself in every challenge, constantly striving for growth. Her passion fuels her journey, inspiring others with her dedication to excellence. Zainab's resolute focus on her goals serves as a shining example of true dedication.</p>
+      </div>
+
+      <!--  Testimonial Card 3 -->
       <div class="bg-white shadow-md rounded-lg p-6">
+        <h3 class="text-xl font-semibold mb-2">Opaluwa Aisha</h3>
+        <p>My acquaintance with Zainab spans more than a decade, during which my unwavering confidence in her commitment to continuous growth has solidified. Her unyielding dedication to personal and professional development has consistently impressed me. Zainab's pursuit of improvement, both in skills and character, serves as a testament to her exceptional work ethic. As time progresses, her relentless dedication becomes increasingly apparent, reinforcing my certainty that she is poised for remarkable growth and achievement.  </div>
+    </section>
+
+
+
+      <!-- Contact Section -->
+
+<section class=" bg-gradient-to-r from-gray-500 via-red-100 to-gray-900 py-8 px-10 lg:px-[400px] flex-col justify-center items-center" id="Contact" >
+  <div class=" mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-4 text-center hover:bg-slate-700">Contact Me</h2>
+    <div class=" gap-6">
+      
+       <!-- Contact Form -->
+      <div class="bg-white shadow-md rounded-lg p-6 ">
         <h3 class="text-xl font-semibold mb-2">Contact Form</h3>
         <form action="#" method="post">
           <div class="mb-4">
@@ -219,7 +252,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       <!-- Footer Column 1 -->
       <div>
-        <h3 class="text-xl font-semibold mb-4">About Me</h3>
+        <h3 class="text-xl font-semibold mb-4 hover:bg-slate-700">About Me</h3>
         <p class="text-gray-400">
           I am a frontend developer.
         </p>
